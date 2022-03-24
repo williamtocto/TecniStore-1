@@ -7,15 +7,18 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.tienda_op_2.Fragments.Home;
+
 public class PantallaInicio extends AppCompatActivity {
 
     private Button signUp;
+    private Button signIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_inicio);
-
+        signIn= findViewById(R.id.btnSignIn);
         signUp= findViewById(R.id.btnSignUp);
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +28,15 @@ public class PantallaInicio extends AppCompatActivity {
                 finish();
             }
         });
+        signIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent login= new Intent( PantallaInicio.this, Inicio_Login.class);
+                startActivity(login);
+                finish();
+            }
+        });
 
     }
+
 }
