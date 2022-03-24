@@ -33,6 +33,7 @@ public class Inicio_Login extends AppCompatActivity implements Validacion_user {
     private Button btn_ingresa;
     private TextView txtUsuario,txtClave;
 
+    // HOLA MUNDO
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
