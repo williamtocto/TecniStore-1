@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.tienda_op_2">
+          package="com.example.TecniStore">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -12,25 +12,25 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Tienda_op_2">
         <activity
-                android:name=".SignUp4"
+                android:name="com.example.TecniStore.SignUp4"
                 android:exported="true"/>
         <activity
-                android:name=".SignUp3"
+                android:name="com.example.TecniStore.SignUp3"
                 android:exported="true"/>
         <activity
-                android:name=".SignUp2"
+                android:name="com.example.TecniStore.SignUp2"
                 android:exported="true"/>
         <activity
-                android:name=".SignUp1"
+                android:name="com.example.TecniStore.SignUp1"
                 android:exported="true"/>
         <activity
-                android:name=".PantallaInicio"
+                android:name="com.example.TecniStore.PantallaInicio"
                 android:exported="true"/>
         <activity
                 android:name=".Inicio_Login"
                 android:exported="true"/>
         <activity
-                android:name=".SplashScream"
+                android:name="com.example.TecniStore.SplashScream"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -39,13 +39,13 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".DetalleProducto"
+                android:name="com.example.TecniStore.DetalleProducto"
                 android:exported="true"/>
         <activity
-                android:name=".AllCategoria"
+                android:name="com.example.TecniStore.AllCategoria"
                 android:exported="true"/>
         <activity
-                android:name=".MainActivity"
+                android:name="com.example.TecniStore.MainActivity"
                 android:exported="true"/>
 
         <meta-data
